@@ -1,0 +1,384 @@
+@media (min-width:992px )
+{
+
+	h1{
+	margin-top: 30px;
+	 text-align: center;
+	 width: 100%;
+}
+body{
+margin: 0px;
+background-color: lightblue;
+width: 100vw;
+height: 100vh;
+}
+#sec1{
+	background: grey;
+	margin: 3% 1%;
+	grid-area: sec1;
+	border: solid 2px black;
+}
+#sec2{
+	background: grey;
+	margin: 3% 1%;
+	border: solid 2px black;
+	grid-area: sec2;
+}
+#sec3{
+	background: grey;
+	margin: 3% 1%;
+	border: solid 2px black;
+	grid-area: sec3;
+}
+.div1{
+	display: grid;
+	grid-template-areas: 'head1 head1 head1'
+	'head2 head2 head2'
+}
+.div2{
+	display: grid;
+	grid-template-areas: 'head3 head3 head3'
+	'head4 head4 head4'
+}
+.div3{
+	display: grid;
+	grid-template-areas:'head5 head5 head5'
+	'head6 head6 head6' 
+}
+#head1{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:31%;
+	height: 30px;
+	background-color: lightcoral;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head1
+}
+#head1 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 24px;
+}
+#head3 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 5px;text-align: center;
+	font-size: 24px;
+}
+#head5 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 24px;
+}
+#head3{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:31%;
+	height: 30px;
+	background-color: red;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head3
+}
+#head5{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:31%;
+	height: 30px;
+	background-color: goldenrod;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head5
+}
+#head2{
+	margin-top: 10%;
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head2
+}
+#head4{
+	margin-top: 10%;
+	padding: 10px;
+    font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head4
+}
+#head6{
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head6
+}
+.div1{
+	display: grid;
+	width: 95%;
+	margin:0px auto;
+	grid-template-areas: 'sec1 sec2 sec3'
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+		h1{
+	margin-top: 30px;
+	 text-align: center;
+	 width: 100%;
+}
+body{
+margin: 0px;
+background-color: lightblue;
+width: 100vw;
+}
+#sec1{
+	background: grey;
+	margin: 3% 1%;
+	grid-area: sec1;
+	border: solid 2px black;
+}
+#sec2{
+	background: grey;
+	margin: 3% 1%;
+	grid-area: sec2;
+	border: solid 2px black;
+}
+#sec3{
+	background: grey;
+	margin: 1% 1%;
+	grid-area: sec3;
+	border: solid 2px black;
+}
+.div1{
+	display: grid;
+	grid-template-areas: 'head1 head1 head1'
+	'head2 head2 head2'
+}
+.div2{
+	display: grid;
+	grid-template-areas: 'head3 head3 head3'
+	'head4 head4 head4'
+}
+.div3{
+	display: grid;
+	grid-template-areas:'head5 head5 head5'
+	'head6 head6 head6' 
+}
+#head1{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:31%;
+	height: 30px;
+	background-color: lightcoral;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head1
+}
+#head1 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 5px;
+	font-size: 24px;
+}
+#head3 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 5px;
+	font-size: 24px;
+}
+#head5 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 5px;
+	font-size: 24px;
+}
+#head3{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:31%;
+	height: 30px;
+	background-color: red;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head3
+}
+#head5{
+	position: relative;
+	top: 0;
+	left: 66.5%;
+	padding: 5px;
+	width:32%;
+	height: 30px;
+	background-color: goldenrod;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head5
+}
+#head2{
+	margin-top: 10%;
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head2
+}
+#head4{
+	margin-top: 10%;
+	padding: 10px;
+    font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head4
+}
+#head6{
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head6
+}
+.div1{
+	display: grid;
+	width: 95%;
+	margin: 0 auto;
+	grid-template-areas: 'sec1 sec2'
+	'sec3 sec3'
+}
+}
+
+@media (max-width: 767px){
+		h1{
+	margin-top: 20px;
+	 text-align: center;
+	 width: 100%;
+}
+body{
+margin: 0px;
+background-color: lightblue;
+width: 100vw;
+}
+#sec1{
+	background: grey;
+	margin: 2% 1%;
+	grid-area: sec1;
+	border: solid 2px black;
+}
+#sec2{
+	background: grey;
+	margin: 2% 1%;
+	grid-area: sec2;
+	border: solid 2px black;
+}
+#sec3{
+	background: grey;
+	margin: 2% 1%;
+	grid-area: sec3;
+	border: solid 2px black;
+}
+.div1{
+	display: grid;
+	grid-template-areas: 'head1 head1 head1'
+	'head2 head2 head2'
+}
+.div2{
+	display: grid;
+	grid-template-areas: 'head3 head3 head3'
+	'head4 head4 head4'
+}
+.div3{
+	display: grid;
+	grid-template-areas:'head5 head5 head5'
+	'head6 head6 head6' 
+}
+#head1{
+	position: relative;
+	top: 0;
+	left: 68%;
+	padding: 5px;
+	width:29.6%;
+	height: 30px;
+	background-color: lightcoral;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head1
+}
+#head1 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 24px;
+	
+}
+#head3 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 24px;
+}
+#head5 h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 24px;
+}
+#head3{
+	position: relative;
+	top: 0;
+	left: 68%;
+	padding: 5px;
+	width:29.6%;
+	height: 30px;
+	background-color: red;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head3
+}
+#head5{
+	position: relative;
+	top: 0;
+	left: 68%;
+	padding: 5px;
+	width:29.6%;
+	height: 30px;
+	background-color: goldenrod;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	grid-area: head5
+}
+#head2{
+	margin-top: 10%;
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head2
+}
+#head4{
+	margin-top: 10%;
+	padding: 10px;
+    font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head4
+}
+#head6{
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	grid-area: head6
+}
+.div1{
+	display: grid;
+	width: 90%;
+	margin: 0px auto;
+	grid-template-areas: 'sec1 sec1 sec1'
+	'sec2 sec2 sec2'
+	 'sec3 sec3 sec3'
+}
+}
